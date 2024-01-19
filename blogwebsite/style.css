@@ -1,0 +1,195 @@
+*{
+    margin: 10px;
+    padding: 0px;
+}
+
+/* .content-right{
+    background-color: burlywood;
+
+} */
+.navigation {
+    margin: 25;
+    font-family: var(--font1);
+    height: 74px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-left{
+    /* color: white; */
+    font-size: 35px;
+    display: flex;
+}
+
+.nav-left ul{
+       /* color: white; */
+       display: flex;
+       align-items: center;
+       margin: 0 77px;
+       font-size: 18px;
+}
+
+.nav-left ul li{
+    /* color: wheat; */
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+    transition: all 0.1s ease-in-out;
+
+}
+.nav-left ul li:hover{
+    color: white;
+    font-weight: bold;
+    background-color: var(--main-bg-color);
+
+
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.nav-right{
+    font-size: 20px;
+}
+
+.content-left{ 
+    font-family: var(--font1);
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.content-right{
+    width: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.content{
+    height: 255px;
+    display: flex;
+    /* background-color: rgb(187, 129, 187); */
+    /* margin-top: px; */
+    margin-top: 0px;
+    padding: 0px;
+    /* background-image: url('upsc.jpg'); */
+    position: relative;
+   
+
+}
+.content::after{
+    content:"";
+    /* background-image: url('upsc.jpg'); */
+    position: absolute;
+    height: inherit;
+    opacity: 0.15;
+}
+.content-right img{
+    height: 415px;
+
+}
+
+.home-articles{
+   
+     height: 2100px;
+     width: 250%;
+     /* background-color: rgb(136, 158, 105); */
+}
+
+.home-article{
+   
+    display: flex;
+  
+    
+
+}
+
+.home-article-img{
+    width: 2000px;
+    height: auto;
+}
+
+
+.home-article-content{
+    align-self: center;
+    padding: 0px 25px;
+
+}
+
+
+.footer {
+    height: 60px;
+    width: 1500;
+    background-color: rgb(207, 61, 207);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    flex-direction: column;
+
+}
+.footer a{
+   color: black;
+}
+
+
+
+element.style{
+    width: 235px;
+    border: 2px solid rgb(223, 165, 174);
+    border-radius: 200px;
+    padding: 50px;
+}
+
+.home-artical-content left font2 {
+    display: flex;
+}
+
+.p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
